@@ -1,22 +1,22 @@
-# 🧠 Real-Time AI-Powered Object Detection
+#  Real-Time AI-Powered Object Detection
 
 This project is a web-based AI tool for real-time object detection and identification using the YOLOv8 neural network model. It allows users to either upload an image or use their webcam to detect objects in real-time. The system is designed for developers, AI enthusiasts, and researchers interested in applying deep learning to practical computer vision tasks.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📷 Upload an image and detect objects using AI.
-- 🎥 Use webcam for real-time object detection.
-- 🤖 Powered by YOLOv8 — a state-of-the-art deep learning model.
-- 🖥️ Streamlit-based user interface for ease of use.
-- ⚡ Fast, accurate, and lightweight object detection.
+-  Upload an image and detect objects using AI.
+-  Use webcam for real-time object detection.
+-  Powered by YOLOv8 — a state-of-the-art deep learning model.
+-  Streamlit-based user interface for ease of use.
+-  Fast, accurate, and lightweight object detection.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-- **Python** – Core programming language
+- Python – Core programming language
 - **YOLOv8 (Ultralytics)** – Deep learning model for object detection
 - **OpenCV** – For image and webcam processing
 - **NumPy** – For numerical operations
@@ -24,7 +24,7 @@ This project is a web-based AI tool for real-time object detection and identific
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -34,7 +34,7 @@ This project is a web-based AI tool for real-time object detection and identific
 4.Run the application:streamlit run app.py
 
 
-📖 Usage Guide
+ Usage Guide
 1.Launch the Web App:
   streamlit run app.py
 2.Upload Image:
@@ -45,7 +45,7 @@ Click the "Use Webcam" button on the sidebar to activate real-time detection (pr
 4.View Results:
 The app will highlight detected objects with bounding boxes and labels in real time.
 
-📄 License
+ License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 
