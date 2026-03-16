@@ -3,6 +3,9 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
+
+
+img = st.camera_input("Take a photo")
 # Load YOLOv8 model (Download yolov8n.pt if not present)
 model = YOLO("yolov8n.pt")  # You can use "yolov8m.pt" for better accuracy
 
